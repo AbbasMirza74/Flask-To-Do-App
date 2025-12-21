@@ -1,7 +1,7 @@
 # Flask To-Do Web Application
 A multi-user To-Do web application built using Python Flask that allows users to manage personal tasks efficiently.
 
-## 🚀 Features
+## 🚀 Features:
 - User registration and login
 - Session-based authentication
 - Create, update, and delete tasks
@@ -9,7 +9,7 @@ A multi-user To-Do web application built using Python Flask that allows users to
 - User-specific task isolation
 - Responsive UI
 
-## 🛠 Tech Stack
+## 🛠 Tech Stack:
 - Python
 - Flask
 - SQLAlchemy
@@ -18,12 +18,14 @@ A multi-user To-Do web application built using Python Flask that allows users to
 - CSS3
 - Jinja2
 
-## 📂 Project Purpose
+## 📂 Project Purpose:
 This project was developed to strengthen backend development skills, database handling, and full-stack web application concepts.
 
-## ▶ How to Run
+## ▶ How to Run:
 1. Clone the repository  
 2. Create a virtual environment  
 3. Install dependencies  
    ```bash
    pip install flask flask_sqlalchemy
+4.Run the application
+  python run.py
