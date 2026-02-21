@@ -1,4 +1,4 @@
-# Flask To-Do Web Application
+# Flask Task Manager Web Application
 A multi-user To-Do web application built using Python Flask that allows users to manage personal tasks efficiently.
 
 ## 🚀 Features:
