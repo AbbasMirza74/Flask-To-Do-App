@@ -28,6 +28,8 @@ This project was developed to strengthen backend development skills, database ha
 2. Create a virtual environment  
 3. Install dependencies  
    ```bash
-   pip install flask flask_sqlalchemy
+   pip install -r requirements.txt
+   
 4.Run the application
+  ```bash
   python run.py
