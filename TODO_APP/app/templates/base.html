@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
-    <title>{% block title %}TO-DO APP{% endblock %}</title>
+    <title>{% block title %}Task Master{% endblock %}</title>
     <link rel="stylesheet" href="{{url_for('static',filename='css/styles.css')}}">
 </head>
 <body>
@@ -9,7 +9,7 @@
         <div class="container header-content">
             <div class="logo-container">
                 <img src="{{ url_for('static', filename='img/logo.png') }}" class="logo">
-                <span class="app-name">TO-DO APP</span>
+                <span class="app-name">Task Master</span>
             </div>
             <nav>
                 <a href="{{ url_for('tasks.view_tasks')}}">Home</a>
@@ -34,7 +34,7 @@
     </main>
     <footer>
         <div class="container">
-            <p>&copy; {{2026}} flask App TO-DO APP</p>
+            <p>&copy; {{2026}} flask App Task Master</p>
         </div>
     </footer>
 </body>
